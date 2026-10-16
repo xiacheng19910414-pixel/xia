@@ -1,0 +1,63 @@
+{
+  "magnets": [
+    {
+      "x": 31.9849,
+      "y": 10.9092,
+      "diameter": 8.2,
+      "depth": 2.2
+    },
+    {
+      "x": 68.0151,
+      "y": 10.9092,
+      "diameter": 8.2,
+      "depth": 2.2
+    }
+  ],
+  "width": 100.0,
+  "height": 73.061,
+  "scale": 1.0008407061932023,
+  "reference": "User supplied Chenghuang temple front elevation; simplified vector reconstruction, not an automatic pixel trace",
+  "text": "庙隍城",
+  "reading": "Traditional right-to-left 城隍庙; upright, never mirrored",
+  "palette": {
+    "black": "#24262B",
+    "blue": "#202F60",
+    "red": "#B9312D",
+    "ivory": "#E9DFC6"
+  },
+  "z_bands_mm": {
+    "black": [
+      0.0,
+      1.6
+    ],
+    "blue": [
+      1.6,
+      2.4
+    ],
+    "red": [
+      2.4,
+      3.2
+    ],
+    "ivory": [
+      3.2,
+      4.0
+    ]
+  },
+  "font_ink_height_mm": 9.107,
+  "font_letter_heights_mm": [
+    8.866999999999997,
+    9.107,
+    8.866999999999997
+  ],
+  "nominal_detail_widths_mm": {
+    "tile_gaps": 0.8,
+    "brackets": 1.05,
+    "door_gaps": 0.8,
+    "plaque_frame": 0.8,
+    "text_counter_minimum": 0.62,
+    "main_posts": 2.4,
+    "eave_band": 1.9
+  },
+  "design_source_sha256": "4add04aa19e242e09bf4f49b884fd5543eefc83b41276e1d88c9d0910d66af6d",
+  "mesh_source_sha256": "1f01e15ebe96b90d7bb153a511253caf8c1aae02481bc97e74bbe3609ab99059"
+}

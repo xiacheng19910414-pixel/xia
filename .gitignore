@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.mplconfig/
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+input/*
+!input/.gitkeep
+!input/README.md
+.DS_Store
+
+# Download bundles duplicate the tracked final model files.
+/output/*_bundle.zip

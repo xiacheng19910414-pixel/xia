@@ -1,0 +1,96 @@
+{
+  "units": "mm",
+  "width": 100.0,
+  "height": 70.0,
+  "base_thickness": 2.0,
+  "decor_height": 1.0,
+  "origin": "Lower left of base; Z=0 build plate",
+  "parts": {
+    "base": {
+      "file": "stl/base.stl",
+      "color_hex": "#4169e1",
+      "bounds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          100.0,
+          70.0,
+          2.0
+        ]
+      ],
+      "volume": 14000.0
+    },
+    "red": {
+      "file": "stl/red.stl",
+      "color_hex": "#ff0000",
+      "bounds": [
+        [
+          4.0,
+          36.0,
+          2.0
+        ],
+        [
+          49.0,
+          66.0,
+          3.0
+        ]
+      ],
+      "volume": 1350.0
+    },
+    "yellow": {
+      "file": "stl/yellow.stl",
+      "color_hex": "#ffd700",
+      "bounds": [
+        [
+          51.0,
+          36.0,
+          2.0
+        ],
+        [
+          96.0,
+          66.0,
+          3.0
+        ]
+      ],
+      "volume": 1350.0
+    },
+    "green": {
+      "file": "stl/green.stl",
+      "color_hex": "#32cd32",
+      "bounds": [
+        [
+          4.0,
+          4.0,
+          2.0
+        ],
+        [
+          49.0,
+          34.0,
+          3.0
+        ]
+      ],
+      "volume": 1350.0
+    },
+    "blue": {
+      "file": "stl/blue.stl",
+      "color_hex": "#4169e1",
+      "bounds": [
+        [
+          51.0,
+          4.0,
+          2.0
+        ],
+        [
+          96.0,
+          34.0,
+          3.0
+        ]
+      ],
+      "volume": 1350.0
+    }
+  },
+  "instructions": "Keep original coordinates for multi-material assembly. For separate printing, lower each decorative part to Z=0. Base shares blue material; four unique colors total. 3MF is fused geometry only; assign STL materials in slicer."
+}

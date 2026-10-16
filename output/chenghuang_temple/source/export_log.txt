@@ -1,0 +1,144 @@
+[
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple/stl/temple_with_slots.stl",
+      "-D",
+      "part=\"assembly\"",
+      "-D",
+      "magnet_slots=true",
+      "/workspace/xia/output/chenghuang_temple/source/temple.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 1\nGeometry cache size in bytes: 2667608\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.062\n   Top level object is a 3D object:\n   Facets:      37048\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple/stl/temple_no_slots.stl",
+      "-D",
+      "part=\"assembly\"",
+      "-D",
+      "magnet_slots=false",
+      "/workspace/xia/output/chenghuang_temple/source/temple.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 1\nGeometry cache size in bytes: 2612312\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.065\n   Top level object is a 3D object:\n   Facets:      36280\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple/stl/band_1_black.stl",
+      "-D",
+      "part=\"black\"",
+      "-D",
+      "magnet_slots=true",
+      "/workspace/xia/output/chenghuang_temple/source/temple.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 2\nGeometry cache size in bytes: 2678128\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.047\n   Top level object is a 3D object:\n   Facets:      18596\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple/stl/band_2_blue.stl",
+      "-D",
+      "part=\"blue\"",
+      "-D",
+      "magnet_slots=true",
+      "/workspace/xia/output/chenghuang_temple/source/temple.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 2\nGeometry cache size in bytes: 3067216\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.034\n   Top level object is a 3D object:\n   Facets:      21298\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple/stl/band_3_red.stl",
+      "-D",
+      "part=\"red\"",
+      "-D",
+      "magnet_slots=true",
+      "/workspace/xia/output/chenghuang_temple/source/temple.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 2\nGeometry cache size in bytes: 1219120\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.013\n   Top level object is a 3D object:\n   Facets:       8464\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple/stl/band_4_ivory.stl",
+      "-D",
+      "part=\"ivory\"",
+      "-D",
+      "magnet_slots=true",
+      "/workspace/xia/output/chenghuang_temple/source/temple.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 2\nGeometry cache size in bytes: 822256\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.009\n   Top level object is a 3D object:\n   Facets:       5708\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple/stl/magnet_fit_coupon.stl",
+      "-D",
+      "part=\"coupon\"",
+      "-D",
+      "magnet_slots=false",
+      "/workspace/xia/output/chenghuang_temple/source/temple.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 7\nGeometry cache size in bytes: 84584\nCGAL Polyhedrons in cache: 1\nCGAL cache size in bytes: 842320\nTotal rendering time: 0:00:00.295\n   Top level object is a 3D object:\n   Simple:        yes\n   Vertices:      584\n   Halfedges:    1752\n   Edges:         876\n   Halffacets:    594\n   Facets:        297\n   Volumes:         2\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple/3mf/temple_geometry.3mf",
+      "-D",
+      "part=\"assembly\"",
+      "-D",
+      "magnet_slots=true",
+      "/workspace/xia/output/chenghuang_temple/source/temple.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 1\nGeometry cache size in bytes: 2667608\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.061\n   Top level object is a 3D object:\n   Facets:      37048\n"
+  }
+]

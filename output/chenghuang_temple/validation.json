@@ -1,0 +1,413 @@
+{
+  "units": "mm",
+  "bounds_mm": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      100,
+      73.061,
+      4
+    ]
+  ],
+  "with_slots": {
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        100.0,
+        73.06099700927734,
+        4.0
+      ]
+    ],
+    "size_mm": [
+      100.0,
+      73.06099700927734,
+      4.0
+    ],
+    "volume_mm3": 12021.258605149944,
+    "triangles": 37048,
+    "watertight": true,
+    "winding_consistent": true,
+    "degenerate_triangles": 0,
+    "components": 1
+  },
+  "no_slots": {
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        100.0,
+        73.06099700927734,
+        4.0
+      ]
+    ],
+    "size_mm": [
+      100.0,
+      73.06099700927734,
+      4.0
+    ],
+    "volume_mm3": 12253.454560698558,
+    "triangles": 36280,
+    "watertight": true,
+    "winding_consistent": true,
+    "degenerate_triangles": 0,
+    "components": 1
+  },
+  "bands": {
+    "black": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          73.06099700927734,
+          1.600000023841858
+        ]
+      ],
+      "size_mm": [
+        100.0,
+        73.06099700927734,
+        1.600000023841858
+      ],
+      "volume_mm3": 7574.354496805178,
+      "triangles": 18596,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 1
+    },
+    "blue": {
+      "bounds_mm": [
+        [
+          1.409000039100647,
+          0.8009999990463257,
+          1.600000023841858
+        ],
+        [
+          98.59100341796875,
+          72.41100311279297,
+          2.4000000953674316
+        ]
+      ],
+      "size_mm": [
+        97.1820033788681,
+        71.61000311374664,
+        0.8000000715255737
+      ],
+      "volume_mm3": 2200.6207667363024,
+      "triangles": 21298,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 27
+    },
+    "red": {
+      "bounds_mm": [
+        [
+          1.409000039100647,
+          0.8009999990463257,
+          2.4000000953674316
+        ],
+        [
+          98.59100341796875,
+          70.95999908447266,
+          3.200000047683716
+        ]
+      ],
+      "size_mm": [
+        97.1820033788681,
+        70.15899908542633,
+        0.7999999523162842
+      ],
+      "volume_mm3": 1474.5505600272193,
+      "triangles": 8464,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 23
+    },
+    "ivory": {
+      "bounds_mm": [
+        [
+          6.36299991607666,
+          0.8009999990463257,
+          3.200000047683716
+        ],
+        [
+          93.63700103759766,
+          70.95999908447266,
+          4.0
+        ]
+      ],
+      "size_mm": [
+        87.274001121521,
+        70.15899908542633,
+        0.7999999523162842
+      ],
+      "volume_mm3": 771.7327815812447,
+      "triangles": 5708,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 18
+    }
+  },
+  "geometry_3mf": {
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        100.0,
+        73.061,
+        4.0
+      ]
+    ],
+    "size_mm": [
+      100.0,
+      73.061,
+      4.0
+    ],
+    "volume_mm3": 12021.258774537842,
+    "triangles": 37048,
+    "watertight": true,
+    "winding_consistent": true,
+    "degenerate_triangles": 0,
+    "components": 1
+  },
+  "colored_3mf": {
+    "black": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          73.060997,
+          1.6
+        ]
+      ],
+      "size_mm": [
+        100.0,
+        73.060997,
+        1.6
+      ],
+      "volume_mm3": 7574.354377118415,
+      "triangles": 18596,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 1
+    },
+    "blue": {
+      "bounds_mm": [
+        [
+          1.409,
+          0.801,
+          1.6
+        ],
+        [
+          98.591003,
+          72.411003,
+          2.4
+        ]
+      ],
+      "size_mm": [
+        97.182003,
+        71.61000299999999,
+        0.7999999999999998
+      ],
+      "volume_mm3": 2200.6206253024966,
+      "triangles": 21298,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 27
+    },
+    "red": {
+      "bounds_mm": [
+        [
+          1.409,
+          0.801,
+          2.4
+        ],
+        [
+          98.591003,
+          70.959999,
+          3.2
+        ]
+      ],
+      "size_mm": [
+        97.182003,
+        70.158999,
+        0.8000000000000003
+      ],
+      "volume_mm3": 1474.5507010028252,
+      "triangles": 8464,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 23
+    },
+    "ivory": {
+      "bounds_mm": [
+        [
+          6.363,
+          0.801,
+          3.2
+        ],
+        [
+          93.637001,
+          70.959999,
+          4.0
+        ]
+      ],
+      "size_mm": [
+        87.274001,
+        70.158999,
+        0.7999999999999998
+      ],
+      "volume_mm3": 771.7328527543935,
+      "triangles": 5708,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 18
+    }
+  },
+  "coupon": {
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        50.0,
+        20.0,
+        4.0
+      ]
+    ],
+    "size_mm": [
+      50.0,
+      20.0,
+      4.0
+    ],
+    "volume_mm3": 3651.563552243448,
+    "triangles": 1164,
+    "watertight": true,
+    "winding_consistent": true,
+    "degenerate_triangles": 0,
+    "components": 1
+  },
+  "nested_support": [
+    {
+      "lower": "black",
+      "upper": "blue",
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "lower": "blue",
+      "upper": "red",
+      "unsupported_area_mm2": 4.3328782383051527e-16
+    },
+    {
+      "lower": "red",
+      "upper": "ivory",
+      "unsupported_area_mm2": 3.514719318965208e-18
+    }
+  ],
+  "actual_stl_sections": [
+    {
+      "z_mm": 0.8,
+      "color": "black",
+      "symmetric_difference_area_mm2": 0.00990356146579875
+    },
+    {
+      "z_mm": 2.0,
+      "color": "blue",
+      "symmetric_difference_area_mm2": 0.012642814450273302
+    },
+    {
+      "z_mm": 2.3,
+      "color": "blue",
+      "symmetric_difference_area_mm2": 0.0031359000601815117
+    },
+    {
+      "z_mm": 2.8,
+      "color": "red",
+      "symmetric_difference_area_mm2": 0.010285263241940651
+    },
+    {
+      "z_mm": 3.6,
+      "color": "ivory",
+      "symmetric_difference_area_mm2": 0.005964965625403217
+    }
+  ],
+  "magnets": [
+    {
+      "x": 31.9849,
+      "y": 10.9092,
+      "diameter": 8.2,
+      "depth": 2.2,
+      "roof_thickness_mm": 1.8,
+      "minimum_wall_checked_mm": 1.2,
+      "bridge_span_mm": 8.2
+    },
+    {
+      "x": 68.0151,
+      "y": 10.9092,
+      "diameter": 8.2,
+      "depth": 2.2,
+      "roof_thickness_mm": 1.8,
+      "minimum_wall_checked_mm": 1.2,
+      "bridge_span_mm": 8.2
+    }
+  ],
+  "planar_partition": {
+    "triangles": 8388,
+    "footprint_area_mm2": 4839.5150905,
+    "overlap_area_mm2": 0.0,
+    "valid_partition": true,
+    "method": "Non-overlapping constrained XY triangulation with monotone solid Z intervals; full surface topology checked independently"
+  },
+  "color_count": 4,
+  "layer_height_mm": 0.2,
+  "layer_count": 20,
+  "xy_construction_grid_mm": 0.001,
+  "analytic_plan_volumes_mm3": {
+    "assembly": 12021.25879,
+    "black": 7574.3543816,
+    "blue": 2200.6207515999995,
+    "red": 1474.5507576000005,
+    "ivory": 771.7328991999998
+  },
+  "pre_quantization_volume_mm3": 12253.454773869811,
+  "quantization_volume_delta_mm3": -5.946981218585279e-05,
+  "pauses_after_layers": [
+    8,
+    12,
+    16
+  ],
+  "caveats": [
+    "Four band files intentionally contain multiple planar islands supported by lower bands; do not print separately.",
+    "8.2 mm cavity roofs require bridging or a slicer support plan; not physically print-tested.",
+    "Geometric validity and nesting do not replace a slicer preview or a physical print."
+  ]
+}

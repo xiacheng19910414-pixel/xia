@@ -1,0 +1,246 @@
+{
+  "units": "mm",
+  "parts": {
+    "base": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          70.0,
+          2.0
+        ]
+      ],
+      "size_mm": [
+        100.0,
+        70.0,
+        2.0
+      ],
+      "volume_mm3": 14000.0,
+      "triangles": 12,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 1
+    },
+    "red": {
+      "bounds_mm": [
+        [
+          4.0,
+          36.0,
+          2.0
+        ],
+        [
+          49.0,
+          66.0,
+          3.0
+        ]
+      ],
+      "size_mm": [
+        45.0,
+        30.0,
+        1.0
+      ],
+      "volume_mm3": 1350.0,
+      "triangles": 12,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 1
+    },
+    "yellow": {
+      "bounds_mm": [
+        [
+          51.0,
+          36.0,
+          2.0
+        ],
+        [
+          96.0,
+          66.0,
+          3.0
+        ]
+      ],
+      "size_mm": [
+        45.0,
+        30.0,
+        1.0
+      ],
+      "volume_mm3": 1350.0,
+      "triangles": 12,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 1
+    },
+    "green": {
+      "bounds_mm": [
+        [
+          4.0,
+          4.0,
+          2.0
+        ],
+        [
+          49.0,
+          34.0,
+          3.0
+        ]
+      ],
+      "size_mm": [
+        45.0,
+        30.0,
+        1.0
+      ],
+      "volume_mm3": 1350.0,
+      "triangles": 12,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 1
+    },
+    "blue": {
+      "bounds_mm": [
+        [
+          51.0,
+          4.0,
+          2.0
+        ],
+        [
+          96.0,
+          34.0,
+          3.0
+        ]
+      ],
+      "size_mm": [
+        45.0,
+        30.0,
+        1.0
+      ],
+      "volume_mm3": 1350.0,
+      "triangles": 12,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 1
+    },
+    "assembly": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          70.0,
+          3.0
+        ]
+      ],
+      "size_mm": [
+        100.0,
+        70.0,
+        3.0
+      ],
+      "volume_mm3": 19400.0,
+      "triangles": 76,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 1
+    }
+  },
+  "commands": [
+    [
+      "openscad",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/stl/base.stl",
+      "-D",
+      "part=\"base\"",
+      "/workspace/xia/output/magnet.scad"
+    ],
+    [
+      "openscad",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/stl/red.stl",
+      "-D",
+      "part=\"red\"",
+      "/workspace/xia/output/magnet.scad"
+    ],
+    [
+      "openscad",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/stl/yellow.stl",
+      "-D",
+      "part=\"yellow\"",
+      "/workspace/xia/output/magnet.scad"
+    ],
+    [
+      "openscad",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/stl/green.stl",
+      "-D",
+      "part=\"green\"",
+      "/workspace/xia/output/magnet.scad"
+    ],
+    [
+      "openscad",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/stl/blue.stl",
+      "-D",
+      "part=\"blue\"",
+      "/workspace/xia/output/magnet.scad"
+    ],
+    [
+      "openscad",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/stl/assembly.stl",
+      "-D",
+      "part=\"assembly\"",
+      "/workspace/xia/output/magnet.scad"
+    ],
+    [
+      "openscad",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/3mf/assembly.3mf",
+      "-D",
+      "part=\"assembly\"",
+      "/workspace/xia/output/magnet.scad"
+    ]
+  ],
+  "3mf": {
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        100.0,
+        70.0,
+        3.0
+      ]
+    ],
+    "size_mm": [
+      100.0,
+      70.0,
+      3.0
+    ],
+    "volume_mm3": 19400.0,
+    "triangles": 76,
+    "watertight": true,
+    "winding_consistent": true,
+    "degenerate_triangles": 0,
+    "components": 1
+  },
+  "preview": "preview/magnet.png (rendered from exported STL meshes)"
+}
