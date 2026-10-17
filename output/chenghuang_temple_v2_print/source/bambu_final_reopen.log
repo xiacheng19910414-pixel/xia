@@ -1,0 +1,15 @@
+[2026-10-17 02:25:04.969782] [0x00007f1fd9082600] [trace]   Initializing StaticPrintConfigs
+[chenghuang_temple_v2_P1S_AMS_sliced.3mf]
+size_x = 100.000000
+size_y = 72.314003
+size_z = 4.000000
+min_x = 0.000000
+min_y = 0.000000
+min_z = 0.000000
+max_x = 100.000000
+max_y = 72.314003
+max_z = 4.000000
+number_of_facets = 228286
+manifold = yes
+number_of_parts =  138
+volume = 13688.830078

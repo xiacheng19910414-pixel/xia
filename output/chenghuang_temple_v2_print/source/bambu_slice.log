@@ -1,0 +1,258 @@
+[2026-10-17 02:24:07.479214] [0x00007f49b8e81600] [trace]   Initializing StaticPrintConfigs
+[2026-10-17 02:24:07.487918] [0x00007f49b8e81600] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-10-17 02:24:07.487937] [0x00007f49b8e81600] [info]    Will start to read model file now, file count :1
+
+[2026-10-17 02:24:07.487947] [0x00007f49b8e81600] [info]    allow_multicolor_oneplate 1, allow_rotations 1 skip_modified_gcodes 0 avoid_extrusion_cali_region 0 loaded_filament_ids size 0, clone_objects size 0, skip_useless_pick 1, allow_newer_file 0, allow_mix_temp 0
+[2026-10-17 02:24:07.487951] [0x00007f49b8e81600] [info]    plate_to_slice=0, normative_check=1, use_first_fila_as_default=0
+[2026-10-17 02:24:07.487965] [0x00007f49b8e81600] [info]    read model file:/workspace/xia/output/chenghuang_temple_v2_print/3mf/chenghuang_temple_v2_P1S_AMS.3mf
+
+[2026-10-17 02:24:07.488130] [0x00007f49b8e81600] [info]    model 0x7ffd3fda0c10, id 3, backup_path empty, set to 02_24_07#39203#3
+[2026-10-17 02:24:07.488161] [0x00007f49b8e81600] [info]    create /3D/Objects in 02_24_07#39203#3
+[2026-10-17 02:24:07.488186] [0x00007f49b8e81600] [info]    create /Metadata in 02_24_07#39203#3
+[2026-10-17 02:24:07.488198] [0x00007f49b8e81600] [info]    create /lock.txt in 02_24_07#39203#3
+[2026-10-17 02:24:07.488309] [0x00007f49b8e81600] [info]    _load_model_from_file:1799import 3mf IMPORT_STAGE_OPEN, m_load_restore=0
+
+[2026-10-17 02:24:07.488392] [0x00007f49b8e81600] [info]    _load_model_from_file:1835import 3mf IMPORT_STAGE_READ_FILES
+
+[2026-10-17 02:24:07.731477] [0x00007f49b8e81600] [info]    _load_model_from_file:1991extract 1th file [Content_Types].xml, total=6
+[2026-10-17 02:24:07.731515] [0x00007f49b8e81600] [info]    _load_model_from_file:2102, [Content_Types].xml skipped, already parsed or a directory or not supported
+
+[2026-10-17 02:24:07.731521] [0x00007f49b8e81600] [info]    _load_model_from_file:1991extract 2th file .rels, total=6
+[2026-10-17 02:24:07.731524] [0x00007f49b8e81600] [info]    _load_model_from_file:2102, _rels/.rels skipped, already parsed or a directory or not supported
+
+[2026-10-17 02:24:07.731528] [0x00007f49b8e81600] [info]    _load_model_from_file:1991extract 3th file 3dmodel.model, total=6
+[2026-10-17 02:24:07.731530] [0x00007f49b8e81600] [info]    _load_model_from_file:2102, 3D/3dmodel.model skipped, already parsed or a directory or not supported
+
+[2026-10-17 02:24:07.731534] [0x00007f49b8e81600] [info]    _load_model_from_file:1991extract 4th file model_settings.config, total=6
+[2026-10-17 02:24:07.731674] [0x00007f49b8e81600] [info]    _load_model_from_file:1991extract 5th file project_settings.config, total=6
+[2026-10-17 02:24:07.731964] [0x00007f49b8e81600] [info]    _extract_project_config_from_archive, extract  _temp_3.config from 3mf Metadata/project_settings.config, ret 1
+
+[2026-10-17 02:24:07.733744] [0x00007f49b8e81600] [info]    _extract_project_config_from_archive, load project config file successfully from _temp_3.config
+
+[2026-10-17 02:24:07.733769] [0x00007f49b8e81600] [info]    _load_model_from_file:1991extract 6th file plate_1.png, total=6
+[2026-10-17 02:24:07.734607] [0x00007f49b8e81600] [info]    _extract_file_from_archive, extract  plate_1.png from 3mf Metadata/plate_1.png, ret 1
+
+[2026-10-17 02:24:07.734625] [0x00007f49b8e81600] [info]    _load_model_from_file:2154, process group colors, size 0
+
+[2026-10-17 02:24:07.734628] [0x00007f49b8e81600] [info]    _load_model_from_file:2176, begin to assemble objects, size 1
+
+[2026-10-17 02:24:07.871833] [0x00007f49b8e81600] [info]    _load_model_from_file:2395import 3mf IMPORT_STAGE_LOADING_PLATES, m_plater_data size 1, m_backup_path 02_24_07#39203#3
+
+[2026-10-17 02:24:07.871892] [0x00007f49b8e81600] [info]    _load_model_from_file:2448, plate 1, thumbnail_file=, no_light_thumbnail_file=
+[2026-10-17 02:24:07.871895] [0x00007f49b8e81600] [info]    _load_model_from_file:2452, top_thumbnail_file=, pick_thumbnail_file=
+[2026-10-17 02:24:07.871897] [0x00007f49b8e81600] [info]    _load_model_from_file:2510import 3mf IMPORT_STAGE_FINISH
+
+[2026-10-17 02:24:07.874084] [0x00007f49b8e81600] [info]    the first file is a 3mf, version 2.8.2.61, got plate count 1
+[2026-10-17 02:24:07.874132] [0x00007f49b8e81600] [info]    current_printer_name Bambu Lab P1S 0.4 nozzle, current_process_name Temple V2 - 0.20mm P1S AMS
+[2026-10-17 02:24:07.874135] [0x00007f49b8e81600] [info]    no inherits_group: use system name the same as current name
+[2026-10-17 02:24:07.874364] [0x00007f49b8e81600] [info]    old printable size from 3mf: {256, 256, 250}
+[2026-10-17 02:24:07.874402] [0x00007f49b8e81600] [info]    old extruder_clearance_height_to_rod 34, extruder_clearance_height_to_lid 90, extruder_clearance_max_radius 68 extruder_clearance_dist_to_rod 33}
+[2026-10-17 02:24:07.874434] [0x00007f49b8e81600] [info]    run:before load settings, file count=0
+
+[2026-10-17 02:24:07.874621] [0x00007f49b8e81600] [warning] run:2873, can not find system preset file: /tmp/squashfs-root/resources/profiles/BBL/machine_full/Bambu Lab P1S 0.4 nozzle.json 
+[2026-10-17 02:24:07.874643] [0x00007f49b8e81600] [warning] run:2895, can not find system preset file: /tmp/squashfs-root/resources/profiles/BBL/process_full/Temple V2 - 0.20mm P1S AMS.json 
+[2026-10-17 02:24:07.874646] [0x00007f49b8e81600] [info]    current printer Bambu Lab P1S 0.4 nozzle, new printer , current process Temple V2 - 0.20mm P1S AMS, new process 
+[2026-10-17 02:24:07.874648] [0x00007f49b8e81600] [info]    current printer inherits Bambu Lab P1S 0.4 nozzle, new printer inherits , current process inherits Temple V2 - 0.20mm P1S AMS, new process inherits 
+[2026-10-17 02:24:07.874650] [0x00007f49b8e81600] [info]    index 0, upward_compatible_printers Bambu Lab P1P 0.4 nozzle
+[2026-10-17 02:24:07.874652] [0x00007f49b8e81600] [info]    index 1, upward_compatible_printers Bambu Lab X1 0.4 nozzle
+[2026-10-17 02:24:07.874653] [0x00007f49b8e81600] [info]    index 2, upward_compatible_printers Bambu Lab X1 Carbon 0.4 nozzle
+[2026-10-17 02:24:07.874655] [0x00007f49b8e81600] [info]    index 3, upward_compatible_printers Bambu Lab X1E 0.4 nozzle
+[2026-10-17 02:24:07.874656] [0x00007f49b8e81600] [info]    index 4, upward_compatible_printers Bambu Lab A1 0.4 nozzle
+[2026-10-17 02:24:07.874658] [0x00007f49b8e81600] [info]    index 5, upward_compatible_printers Bambu Lab H2D 0.4 nozzle
+[2026-10-17 02:24:07.874659] [0x00007f49b8e81600] [info]    index 6, upward_compatible_printers Bambu Lab H2D Pro 0.4 nozzle
+[2026-10-17 02:24:07.874661] [0x00007f49b8e81600] [info]    index 7, upward_compatible_printers Bambu Lab H2S 0.4 nozzle
+[2026-10-17 02:24:07.874662] [0x00007f49b8e81600] [info]    index 8, upward_compatible_printers Bambu Lab P2S 0.4 nozzle
+[2026-10-17 02:24:07.874663] [0x00007f49b8e81600] [info]    index 9, upward_compatible_printers Bambu Lab H2C 0.4 nozzle
+[2026-10-17 02:24:07.874665] [0x00007f49b8e81600] [info]    index 10, upward_compatible_printers Bambu Lab X2D 0.4 nozzle
+[2026-10-17 02:24:07.874666] [0x00007f49b8e81600] [info]    index 11, upward_compatible_printers Bambu Lab A2L 0.4 nozzle
+[2026-10-17 02:24:07.874678] [0x00007f49b8e81600] [info]    old 3mf, no compatible printers, set to compatible
+[2026-10-17 02:24:07.874689] [0x00007f49b8e81600] [info]    old printer Bambu Lab P1S 0.4 nozzle, inherited from Bambu Lab P1S 0.4 nozzle, old process Temple V2 - 0.20mm P1S AMS, inherited from Temple V2 - 0.20mm P1S AMS ,compatible 1
+[2026-10-17 02:24:07.874769] [0x00007f49b8e81600] [warning] no filament colors found in projects
+[2026-10-17 02:24:07.874777] [0x00007f49b8e81600] [info]    total 1 models, 0 objects
+
+[2026-10-17 02:24:07.875565] [0x00007f49b8e81600] [info]    4160, remove_wrapping_detect 0, old value 0
+[2026-10-17 02:24:07.875670] [0x00007f49b8e81600] [info]    old printable size {256, 256, 250}, new printable size {256, 256, 250}, extract the same, no need shrink
+[2026-10-17 02:24:07.875682] [0x00007f49b8e81600] [info]    translate_old 0, shrink_to_new_bed 0, old bed size {256, 256, 250}
+[2026-10-17 02:24:07.875695] [0x00007f49b8e81600] [info]    reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
+[2026-10-17 02:24:07.875697] [0x00007f49b8e81600] [info]    reset_size:after size: plate_width 256, plate_depth 256, plate_height 250
+[2026-10-17 02:24:07.875704] [0x00007f49b8e81600] [info]    set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-10-17 02:24:07.875712] [0x00007f49b8e81600] [info]    set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 250
+[2026-10-17 02:24:07.875715] [0x00007f49b8e81600] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-17 02:24:07.875718] [0x00007f49b8e81600] [info]    set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-10-17 02:24:07.875721] [0x00007f49b8e81600] [info]    set_pos_and_size: with_instance_move 0, after, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 250
+[2026-10-17 02:24:07.875728] [0x00007f49b8e81600] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-17 02:24:07.875753] [0x00007f49b8e81600] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-17 02:24:07.875760] [0x00007f49b8e81600] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-17 02:24:07.875812] [0x00007f49b8e81600] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-17 02:24:07.875822] [0x00007f49b8e81600] [info]    set_filament_count: filament_count=1
+[2026-10-17 02:24:07.875854] [0x00007f49b8e81600] [info]    update_plate_cols:m_plate_count 1, m_plate_cols change to 1
+[2026-10-17 02:24:07.875864] [0x00007f49b8e81600] [info]    set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 250
+[2026-10-17 02:24:07.875867] [0x00007f49b8e81600] [info]    set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 250
+[2026-10-17 02:24:07.875874] [0x00007f49b8e81600] [info]    set_pos_and_size: plate_id 1, before, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 250
+[2026-10-17 02:24:07.875877] [0x00007f49b8e81600] [info]    set_pos_and_size: with_instance_move 0, after, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 250
+[2026-10-17 02:24:07.875883] [0x00007f49b8e81600] [info]    PartPlate same shape, skip directly
+[2026-10-17 02:24:07.875888] [0x00007f49b8e81600] [info]    load_from_3mf_structure: plate 0, gcode_file , is_sliced_valid 0, toolpath_outside 0, is_support_used 0 is_label_object_enabled 0
+[2026-10-17 02:24:07.875894] [0x00007f49b8e81600] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[2026-10-17 02:24:07.875903] [0x00007f49b8e81600] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-17 02:24:07.876088] [0x00007f49b8e81600] [info]    add_instance: plate 0 , m_ready_for_slice changes to 1
+[2026-10-17 02:24:07.876609] [0x00007f49b8e81600] [info]    plate 1, object bbox: min {78, 91.843, 0} - max {178, 164.157, 4}
+[2026-10-17 02:24:07.896315] [0x00007f49b8e81600] [info]    plate 1, has wipe tower, wipe bbox: min {187, 107, 0} - max {230.477, 150.477, 0}
+[2026-10-17 02:24:07.896335] [0x00007f49b8e81600] [info]    plate 1,  has_wipe_tower 1, wipe_x 190, wipe_y 110, width 37.4767, depth 37.4767
+[2026-10-17 02:24:07.896348] [0x00007f49b8e81600] [info]    will start transforms, commands count 0
+
+[2026-10-17 02:24:07.896357] [0x00007f49b8e81600] [info]    finished model pre-process commands
+
+[2026-10-17 02:24:07.896388] [0x00007f49b8e81600] [info]    before arrange, need_arrange=0, duplicate_count 0, filament_color_changed 0
+[2026-10-17 02:24:07.896434] [0x00007f49b8e81600] [info]    Need to slice for plate 0, total plate count 1 partplates!
+
+[2026-10-17 02:24:07.896500] [0x00007f49b8e81600] [info]    Plate 1: pre_check 1, start
+[2026-10-17 02:24:07.896581] [0x00007f49b8e81600] [info]    update_print_volume_state, print_volume {0, 0, 0} to {256, 256, 250}, got 1 printable istances
+[2026-10-17 02:24:07.896619] [0x00007f49b8e81600] [info]    plate 1: load cached data success, go on.
+[2026-10-17 02:24:07.896835] [0x00007f49b8e81600] [info]    apply, Line 1184: enter
+[2026-10-17 02:24:07.896855] [0x00007f49b8e81600] [info]    apply, has_scarf_joint_seam:false
+[2026-10-17 02:24:07.896857] [0x00007f49b8e81600] [info]    apply, has_scarf_joint_seam:false
+[2026-10-17 02:24:07.896866] [0x00007f49b8e81600] [info]    update_values_to_printer_extruders, Line 8679: extruder_count 1, extruder_nozzle_volume_count 1
+[2026-10-17 02:24:07.896874] [0x00007f49b8e81600] [info]    update_values_to_printer_extruders, Line 8683: different nozzle volume processing
+[2026-10-17 02:24:07.896899] [0x00007f49b8e81600] [info]    update_values_to_printer_extruders, Line 8679: extruder_count 1, extruder_nozzle_volume_count 1
+[2026-10-17 02:24:07.896904] [0x00007f49b8e81600] [info]    update_values_to_printer_extruders, Line 8683: different nozzle volume processing
+[2026-10-17 02:24:07.896938] [0x00007f49b8e81600] [info]    update_values_to_printer_extruders, Line 8679: extruder_count 1, extruder_nozzle_volume_count 1
+[2026-10-17 02:24:07.896943] [0x00007f49b8e81600] [info]    update_values_to_printer_extruders, Line 8683: different nozzle volume processing
+[2026-10-17 02:24:07.897062] [0x00007f49b8e81600] [info]    update_values_to_printer_extruders_for_multiple_filaments, Line 8892: extruder_count 1, extruder_nozzle_volume_count 1
+[2026-10-17 02:24:07.897072] [0x00007f49b8e81600] [info]    update_values_to_printer_extruders_for_multiple_filaments, Line 8896: different nozzle volume processing
+[2026-10-17 02:24:07.897380] [0x00007f49b8e81600] [info]    apply, got print_diff 197, object_diff 17, region_diff 27, set status to APPLY_STATUS_CHANGED
+[2026-10-17 02:24:07.897481] [0x00007f49b8e81600] [info]    apply 1508: found full_config_diff changed.
+[2026-10-17 02:24:07.898602] [0x00007f49b8e81600] [info]    apply 1835: found print object changed.
+[2026-10-17 02:24:07.898629] [0x00007f49b8e81600] [info]    apply, got new_changed_keys, size=1
+[2026-10-17 02:24:07.898632] [0x00007f49b8e81600] [info]    apply, i=0, key=independent_support_layer_height
+[2026-10-17 02:24:07.900570] [0x00007f49b8e81600] [info]    apply 2121: finished,  this 0x55d90ac3c5c0, m_modified_count 1, apply_status 1, m_support_used 0
+[2026-10-17 02:24:07.900595] [0x00007f49b8e81600] [info]    set no_check to 0:
+[2026-10-17 02:24:07.900849] [0x00007f49b8e81600] [info]    start Print::process for partplate 1
+
+[2026-10-17 02:24:07.900859] [0x00007f49b8e81600] [info]    cli callback mgr started:  false
+
+[2026-10-17 02:24:07.900861] [0x00007f49b8e81600] [info]    set print's callback to default_status_callback.
+[2026-10-17 02:24:07.900872] [0x00007f49b8e81600] [info]    printer_model_string: Bambu Lab P1S, is_bbl_vendor_preset 1
+[2026-10-17 02:24:07.902512] [0x00007f49b8e81600] [info]    process: this=0x55d90ac3c5c0, enter, use_cache=0, object size=1
+[2026-10-17 02:24:07.902528] [0x00007f49b8e81600] [info]    process: total object counts 1 in current print, need to slice 1
+[2026-10-17 02:24:07.902580] [0x00007f49b8e81600] [info]    Starting the slicing process. Resident memory: 125MB; Shared memory: 69MB; Private memory: 55MB; Peak memory usage: 148MB
+[2026-10-17 02:24:07.902614] [0x00007f49b8e81600] [info]    Slicing volumes... Resident memory: 125MB; Shared memory: 69MB; Private memory: 55MB; Peak memory usage: 148MB
+[2026-10-17 02:24:08.091065] [0x00007f49b8e81600] [info]    Generating walls... Resident memory: 139MB; Shared memory: 70MB; Private memory: 69MB; Peak memory usage: 148MB
+[2026-10-17 02:24:08.604619] [0x00007f49b8e81600] [info]    Detecting solid surfaces... Resident memory: 140MB; Shared memory: 70MB; Private memory: 69MB; Peak memory usage: 148MB
+[2026-10-17 02:24:08.729093] [0x00007f49b8e81600] [info]    Preparing fill surfaces... Resident memory: 141MB; Shared memory: 71MB; Private memory: 70MB; Peak memory usage: 148MB
+[2026-10-17 02:24:08.729212] [0x00007f49b8e81600] [info]    Discovering vertical shells... Resident memory: 141MB; Shared memory: 71MB; Private memory: 70MB; Peak memory usage: 148MB
+[2026-10-17 02:24:09.114648] [0x00007f49b8e81600] [info]    Processing external surfaces... Resident memory: 141MB; Shared memory: 71MB; Private memory: 71MB; Peak memory usage: 148MB
+[2026-10-17 02:24:09.337465] [0x00007f49b8e81600] [info]    Bridge over infill - Start Resident memory: 143MB; Shared memory: 71MB; Private memory: 72MB; Peak memory usage: 148MB
+[2026-10-17 02:24:09.382113] [0x00007f49b8e81600] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 143MB; Shared memory: 71MB; Private memory: 72MB; Peak memory usage: 148MB
+[2026-10-17 02:24:09.382150] [0x00007f49b8e81600] [info]    Bridge over infill - End Resident memory: 143MB; Shared memory: 71MB; Private memory: 72MB; Peak memory usage: 148MB
+[2026-10-17 02:24:09.596447] [0x00007f49ad2f96c0] [warning] Detected missing Voronoi vertex, input polygons will be rotated back and forth.
+[2026-10-17 02:24:10.007359] [0x00007f49b8e81600] [warning] tree support default to organic support
+[2026-10-17 02:24:10.196195] [0x00007f49b8e81600] [info]    max_cantilever_dist=0
+[2026-10-17 02:24:10.196452] [0x00007f49b8e81600] [info]    is_support_necessary takes 0 secs.
+[2026-10-17 02:24:10.217509] [0x00007f49b8e81600] [info]    update_filament_maps_to_config: filament maps changed after pre-slicing.
+[2026-10-17 02:24:10.217754] [0x00007f49b8e81600] [info]    update_filament_maps_to_config, Line 2887:  extruder_count 1, extruder_volume_type_count 1
+[2026-10-17 02:24:10.217772] [0x00007f49b8e81600] [info]    update_values_to_printer_extruders_for_multiple_filaments, Line 8892: extruder_count 1, extruder_nozzle_volume_count 1
+[2026-10-17 02:24:10.217775] [0x00007f49b8e81600] [info]    update_values_to_printer_extruders_for_multiple_filaments, Line 8896: different nozzle volume processing
+[2026-10-17 02:24:10.305800] [0x00007f49b8e81600] [info]    gcode path conflicts check takes 0.027 secs.
+[2026-10-17 02:24:10.305919] [0x00007f49b8e81600] [info]    Slicing process finished. Resident memory: 148MB; Shared memory: 72MB; Private memory: 76MB; Peak memory usage: 148MB
+[2026-10-17 02:24:10.305960] [0x00007f49b8e81600] [info]    print::process: first time_using_cache is 0 secs.
+[2026-10-17 02:24:10.305981] [0x00007f49b8e81600] [info]    process finished, will export gcode temporily to /tmp/temple-v2-final-slice/plate_1.gcode
+
+[2026-10-17 02:24:10.306201] [0x00007f49b8e81600] [info]    reset 1589: this=0x7ffd3fda07d0 reset finished
+[2026-10-17 02:24:10.306322] [0x00007f49b8e81600] [info]    Will export G-code to plate_1.gcode soon
+[2026-10-17 02:24:10.306524] [0x00007f49b8e81600] [info]    Exporting G-code... Resident memory: 148MB; Shared memory: 73MB; Private memory: 76MB; Peak memory usage: 148MB
+[2026-10-17 02:24:10.306920] [0x00007f49b8e81600] [info]    reset 1589: this=0x7ffd3fda07d0 reset finished
+[2026-10-17 02:24:11.617241] [0x00007f49b8e81600] [info]    post_process:  before process plate_1.gcode.tmp
+[2026-10-17 02:24:11.646376] [0x00007f49b8e81600] [info]    post_process:  after process plate_1.gcode.tmp
+[2026-10-17 02:24:11.653632] [0x00007f49b8e81600] [info]    rename_file from plate_1.gcode.tmp to plate_1.gcode successfully
+[2026-10-17 02:24:11.653695] [0x00007f49b8e81600] [info]    Exporting G-code finished Resident memory: 200MB; Shared memory: 73MB; Private memory: 127MB; Peak memory usage: 200MB
+[2026-10-17 02:24:11.656391] [0x00007f49b8e81600] [info]    export_gcode finished: time_using_cache update to 1351 secs.
+[2026-10-17 02:24:11.656416] [0x00007f49b8e81600] [info]    Slicing result exported to /tmp/temple-v2-final-slice/plate_1.gcode
+
+[2026-10-17 02:24:11.656425] [0x00007f49b8e81600] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 1
+[2026-10-17 02:24:11.656994] [0x00007f49b8e81600] [info]    ~PrintObject: this=0x55d90a1e6650, m_shared_object 0
+[2026-10-17 02:24:11.665301] [0x00007f49b8e81600] [info]    Plate 1: slice data released to free memory.
+[2026-10-17 02:24:11.665470] [0x00007f49b8e81600] [info]    store_to_3mf_structure: plate 1 before load, width 0, height 0, size 0!
+[2026-10-17 02:24:11.665482] [0x00007f49b8e81600] [info]    store_to_3mf_structure: plate 1 after load, width 0, height 0, size 0!
+[2026-10-17 02:24:11.665501] [0x00007f49b8e81600] [info]    store_to_3mf_structure: plate 0, gcode_filename=plate_1.gcode, with_slice_info=1, slice_valid 1, object item count 1.
+[2026-10-17 02:24:11.665615] [0x00007f49b8e81600] [info]    store_to_3mf_structure:stored 1 plates!
+[2026-10-17 02:24:11.665627] [0x00007f49b8e81600] [info]    only has 1 object,  set plate 1's is_label_object_enabled from 0 to false
+[2026-10-17 02:24:11.665647] [0x00007f49b8e81600] [info]    thumbnails stage: plate 1's thumbnail data is invalid, check the file  exist or not
+[2026-10-17 02:24:11.665654] [0x00007f49b8e81600] [info]    thumbnails stage: plate 1's thumbnail file also not there, need to regenerate
+[2026-10-17 02:24:11.665656] [0x00007f49b8e81600] [info]    thumbnails stage: plate 1's no_light_thumbnail_file  also not there, need to regenerate
+[2026-10-17 02:24:11.665659] [0x00007f49b8e81600] [info]    thumbnails stage: plate 1's top_file  also not there, need to regenerate
+[2026-10-17 02:24:11.665679] [0x00007f49b8e81600] [info]    opengl version 3.3.7
+[2026-10-17 02:24:11.665850] [0x00007f49b8e81600] [error]   error_code 65544, description: Wayland: Failed to connect to display
+
+[2026-10-17 02:24:11.665861] [0x00007f49b8e81600] [error]   glfwInit return error, code 65544
+
+[2026-10-17 02:24:11.665883] [0x00007f49b8e81600] [info]    plate 1 bed type: Textured PEI Plate, set from global
+[2026-10-17 02:24:11.665894] [0x00007f49b8e81600] [info]    will export 3mf to /tmp/temple-v2-final-slice/temple_v2_P1S_AMS_sliced.3mf
+
+[2026-10-17 02:24:11.665941] [0x00007f49b8e81600] [info]    _save_model_to_file:6449,before open zip writer, m_skip_static 0, m_save_gcode 1, m_use_loaded_id 1
+[2026-10-17 02:24:11.665971] [0x00007f49b8e81600] [info]    _save_model_to_file:6477, before add _add_content_types_file_to_archive
+
+[2026-10-17 02:24:11.666058] [0x00007f49b8e81600] [info]    _save_model_to_file:6491,before add thumbnails, count 0
+[2026-10-17 02:24:11.666065] [0x00007f49b8e81600] [info]    _save_model_to_file:6492,top&&pick thumbnails, count 0
+[2026-10-17 02:24:11.666081] [0x00007f49b8e81600] [info]    _save_model_to_file:6630,before add calibration thumbnails, count 0
+
+[2026-10-17 02:24:11.666088] [0x00007f49b8e81600] [info]    _save_model_to_file:6652,before add calibration boundingbox, count 1
+
+[2026-10-17 02:24:11.666151] [0x00007f49b8e81600] [info]    _save_model_to_file:6668, before add models
+
+[2026-10-17 02:24:11.666167] [0x00007f49b8e81600] [info]    _add_model_file_to_archive:7153, filename temple_v2_P1S_AMS_sliced.3mf.tmp, m_split_model 1,  sub_model 0
+[2026-10-17 02:24:11.666218] [0x00007f49b8e81600] [info]    bbs_3mf: save key= Application, value = BambuStudio-02.08.02.61
+[2026-10-17 02:24:11.666225] [0x00007f49b8e81600] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-17 02:24:11.666227] [0x00007f49b8e81600] [info]    bbs_3mf: save key= Copyright, value = 
+[2026-10-17 02:24:11.666228] [0x00007f49b8e81600] [info]    bbs_3mf: save key= CreationDate, value = 2026-10-17
+[2026-10-17 02:24:11.666230] [0x00007f49b8e81600] [info]    bbs_3mf: save key= Description, value = 
+[2026-10-17 02:24:11.666231] [0x00007f49b8e81600] [info]    bbs_3mf: save key= Designer, value = 
+[2026-10-17 02:24:11.666233] [0x00007f49b8e81600] [info]    bbs_3mf: save key= DesignerCover, value = 
+[2026-10-17 02:24:11.666234] [0x00007f49b8e81600] [info]    bbs_3mf: save key= DesignerUserId, value = 
+[2026-10-17 02:24:11.666235] [0x00007f49b8e81600] [info]    bbs_3mf: save key= License, value = 
+[2026-10-17 02:24:11.666238] [0x00007f49b8e81600] [info]    bbs_3mf: save key= ModificationDate, value = 2026-10-17
+[2026-10-17 02:24:11.666240] [0x00007f49b8e81600] [info]    bbs_3mf: save key= Origin, value = 
+[2026-10-17 02:24:11.666242] [0x00007f49b8e81600] [info]    bbs_3mf: save key= ProfileCover, value = 
+[2026-10-17 02:24:11.666244] [0x00007f49b8e81600] [info]    bbs_3mf: save key= ProfileDescription, value = 
+[2026-10-17 02:24:11.666245] [0x00007f49b8e81600] [info]    bbs_3mf: save key= ProfileTitle, value = 
+[2026-10-17 02:24:11.666247] [0x00007f49b8e81600] [info]    bbs_3mf: save key= Title, value = Chenghuang Temple V2 / P1S AMS
+[2026-10-17 02:24:11.666361] [0x00007f49b8e81600] [info]    _add_model_file_to_archive:7153, filename object_1.model, m_split_model 1,  sub_model 1
+[2026-10-17 02:24:11.666375] [0x00007f49b8e81600] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-17 02:24:12.403952] [0x00007f49b8e81600] [info]    _save_model_to_file:6731, before add custom gcodes
+
+[2026-10-17 02:24:12.404025] [0x00007f49b8e81600] [info]    _save_model_to_file:6742, before add project_settings
+
+[2026-10-17 02:24:12.405255] [0x00007f49b8e81600] [info]    save_to_json:1573, saved config to _temp_1.config
+
+[2026-10-17 02:24:12.406404] [0x00007f49b8e81600] [info]    _add_file_to_archive:6928, add file _temp_1.config to archive Metadata/project_settings.config
+
+[2026-10-17 02:24:12.406534] [0x00007f49b8e81600] [info]    _save_model_to_file:6757, before add project embedded settings
+
+[2026-10-17 02:24:12.636626] [0x00007f49b8e81600] [info]    operator():8937, store  plate_1.gcode to 3mf plate_1.gcode
+
+[2026-10-17 02:24:12.636954] [0x00007f49b8e81600] [info]    _save_model_to_file:6832, before add sliced info to 3mf
+
+[2026-10-17 02:24:12.637094] [0x00007f49b8e81600] [info]    _save_model_to_file:6864, before add auxiliary dir to 3mf
+
+[2026-10-17 02:24:12.637126] [0x00007f49b8e81600] [info]    create missing sub_pathAuxiliaries
+[2026-10-17 02:24:12.637166] [0x00007f49b8e81600] [info]    _save_model_to_file:6877, before add relation file to 3mf
+
+[2026-10-17 02:24:12.637201] [0x00007f49b8e81600] [info]    _save_model_to_file:6899, finished exporting 3mf
+
+[2026-10-17 02:24:12.637971] [0x00007f49b8e81600] [info]    Project exported to /tmp/temple-v2-final-slice/temple_v2_P1S_AMS_sliced.3mf
+
+[2026-10-17 02:24:12.638008] [0x00007f49b8e81600] [info]    cli_callback_mgr_t::stop enter.
+[2026-10-17 02:24:12.638015] [0x00007f49b8e81600] [info]    cli_callback_mgr_t::stop not started before, return directly.
+[2026-10-17 02:24:12.638017] [0x00007f49b8e81600] [info]    run, Finished
+
+[2026-10-17 02:24:12.638054] [0x00007f49b8e81600] [info]    record_exit_reson:586 Slicer_Info_Report: plate_id=0, return_code=0, error_message=Success., slice_time_s=3.76, pring_time_s=3882.74, filament_usage_g=19.3509
+
+[2026-10-17 02:24:12.638263] [0x00007f49b8e81600] [info]    record_exit_reson:604, saved config to /tmp/temple-v2-final-slice/result.json
+
+[2026-10-17 02:24:12.638314] [0x00007f49b8e81600] [info]    update_slice_result_valid_state: plate 0 , update slice result from 1 to 0
+[2026-10-17 02:24:12.638322] [0x00007f49b8e81600] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-17 02:24:12.638666] [0x00007f49b8e81600] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-17 02:24:12.638681] [0x00007f49b8e81600] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-17 02:24:12.638740] [0x00007f49b8e81600] [info]    _BBS_Backup_Manager inital and interval = 60
+[2026-10-17 02:24:12.638928] [0x00007f49b8e81600] [info]    remove_backup 02_24_07#39203#3, true
+[2026-10-17 02:24:12.639091] [0x00007f49acef86c0] [info]    process_task{ type:RemoveBackup, id:3, path:02_24_07#39203#3, object:0, extra:1}
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.

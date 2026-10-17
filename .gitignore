@@ -5,6 +5,8 @@ __pycache__/
 .cache/
 .mplconfig/
 *.log
+!/output/chenghuang_temple_v2_print/source/bambu_slice.log
+!/output/chenghuang_temple_v2_print/source/bambu_final_reopen.log
 *.tmp
 .env
 .env.*
