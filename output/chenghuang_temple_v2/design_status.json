@@ -1,0 +1,41 @@
+{
+  "width": 100.0,
+  "height": 72.314,
+  "palette": {
+    "black": "#202329",
+    "blue": "#24355C",
+    "red": "#AF302B",
+    "ivory": "#EAE0C9"
+  },
+  "reference_scale_mm_per_pixel": 0.07267606999428364,
+  "status": "FRONT DESIGN STUDY ONLY; not a printable STL or validated 3D model",
+  "planned_total_thickness_mm": 4.0,
+  "planned_layer_height_mm": 0.2,
+  "planned_z_bands_mm": {
+    "black": [
+      0,
+      1.6
+    ],
+    "blue": [
+      1.6,
+      2.4
+    ],
+    "red": [
+      2.4,
+      3.2
+    ],
+    "ivory": [
+      3.2,
+      4.0
+    ]
+  },
+  "text": "庙隍城",
+  "text_layout_height_mm": 6.9042266494569455,
+  "magnet_strategy": "No slots in this revision: keep reference-proportioned lion plinths; use rear adhesive magnetic sheet. Reassess cavity roof thickness after design review.",
+  "nominal_major_stroke_mm": 0.8721128399314036,
+  "remaining_checks": [
+    "Chinese glyph minimum stroke and counter widths at final size",
+    "Individual ornamental minimum widths and clearances",
+    "Final 3D manifold export, magnet decisions, slicing and physical print"
+  ]
+}
