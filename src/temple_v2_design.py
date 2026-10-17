@@ -36,27 +36,38 @@ def pair(g):return U(g,M(g))
 
 
 def plaque_letters():
+    """True brush-calligraphy glyphs, preserving font proportions and baseline."""
     from matplotlib.textpath import TextPath
     from matplotlib.font_manager import FontProperties
-    font=FontProperties(fname='/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc')
-    glyphs=[]
+    font_path=Path(__file__).resolve().parents[1]/'assets/fonts/mashanzheng/MaShanZheng-Regular.ttf'
+    if not font_path.is_file():raise RuntimeError('Missing vendored Ma Shan Zheng font')
+    font=FontProperties(fname=str(font_path))
+    outlines=[]
     for char in '庙隍城':
         t=TextPath((0,0),char,size=10,prop=font)
         g=Polygon()
-        for contour in t.to_polygons():g=g.symmetric_difference(Polygon(contour))
-        # Preserve actual Chinese glyphs; never mirror them with the architecture.
-        x0,y0,x1,y1=g.bounds
-        f=93/(y1-y0) # 6.76 mm layout ink height; final stroke constraint pending.
-        g=translate(scale(g,xfact=f,yfact=-f,origin=(0,0)),xoff=-x0*f,yoff=y1*f)
-        g=g.buffer(1.0,join_style='round')
+        for contour in t.to_polygons():
+            ring=Polygon(contour)
+            if not ring.is_valid:raise ValueError(f'Invalid font contour for {char}')
+            g=g.symmetric_difference(ring)
+        outlines.append(g)
+    ymin=min(g.bounds[1] for g in outlines)
+    ymax=max(g.bounds[3] for g in outlines)
+    f=93/(ymax-ymin)
+    glyphs=[]
+    # One scale and a shared baseline: do not distort each calligraphic glyph
+    # separately to fit a rectangle. Y is flipped only to the reference canvas.
+    for g in outlines:
+        g=affine_transform(g,[f,0,0,-f,0,ymax*f]).buffer(1.0,join_style='round')
         glyphs.append(g)
-    widths=[g.bounds[2]-g.bounds[0] for g in glyphs]
-    cursor=768-(sum(widths)+22)/2
+    cursor=0
     arranged=[]
-    for g,width in zip(glyphs,widths):
-        arranged.append(translate(g,xoff=cursor-g.bounds[0],yoff=526-g.bounds[1]))
-        cursor+=width+11
-    return U(*arranged)
+    for g in glyphs:
+        arranged.append(translate(g,xoff=cursor-g.bounds[0]))
+        cursor+=g.bounds[2]-g.bounds[0]+11
+    group=U(*arranged)
+    x0,y0,x1,y1=group.bounds
+    return translate(group,xoff=768-(x0+x1)/2,yoff=570-(y0+y1)/2)
 
 
 def bracket(cx,y,w=46):
@@ -209,6 +220,8 @@ def design_v2():
         planned_total_thickness_mm=4.0,planned_layer_height_mm=.2,
         planned_z_bands_mm={'black':[0,1.6],'blue':[1.6,2.4],'red':[2.4,3.2],'ivory':[3.2,4.0]},
         text='庙隍城',text_layout_height_mm=95*factor,
+        plaque_font='Ma Shan Zheng / 马善政毛笔楷书',
+        plaque_font_license='SIL Open Font License 1.1; unmodified font included in assets/fonts/mashanzheng',
         magnet_strategy='No slots in this revision: keep reference-proportioned lion plinths; use rear adhesive magnetic sheet. Reassess cavity roof thickness after design review.',
         nominal_major_stroke_mm=12*factor,
         remaining_checks=['Chinese glyph minimum stroke and counter widths at final size',

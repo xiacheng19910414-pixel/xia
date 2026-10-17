@@ -14,6 +14,25 @@ import matplotlib.pyplot as plt
 OUT=ROOT/'output'/'chenghuang_temple_v2'
 
 
+def detail_and_comparison(d):
+    # Render from vector geometry rather than editing or retouching images.
+    fig,ax=plt.subplots(figsize=(9,3.7))
+    for i,(name,g) in enumerate(d['masks'].items()):plot_geometry(ax,g,PALETTE[name],i+1)
+    ax.set(xlim=(36.5,63.5),ylim=(35.1,46.0));ax.set_aspect('equal');ax.axis('off')
+    fig.subplots_adjust(left=0,right=1,bottom=0,top=1)
+    fig.savefig(OUT/'plaque_font_detail.png',dpi=200,facecolor='white');plt.close(fig)
+    from src.temple_design import design,PALETTE as old_palette
+    from matplotlib.font_manager import FontProperties
+    font=FontProperties(fname='/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc')
+    old=design()
+    fig,axes=plt.subplots(1,2,figsize=(16,7.6))
+    for ax,model,colors,title in [(axes[0],old,old_palette,'旧版'),(axes[1],d,PALETTE,'新版 V2 · 毛笔楷书匾额')]:
+        for i,(name,g) in enumerate(model['masks'].items()):plot_geometry(ax,g,colors[name],i+1)
+        ax.set(xlim=(-2,102),ylim=(-2,78));ax.set_aspect('equal');ax.axis('off')
+        ax.set_title(title,fontproperties=font,fontsize=16,pad=10)
+    fig.tight_layout();fig.savefig(OUT/'comparison_v1_v2.png',dpi=180,facecolor='white');plt.close(fig)
+
+
 def main():
     d=design_v2();OUT.mkdir(parents=True,exist_ok=True)
     assert abs(d['width']-100)<.002
@@ -43,6 +62,7 @@ def main():
             lines.append(f'<path fill="{PALETTE[name]}" fill-rule="evenodd" d="{" ".join(path)}"/>')
     lines.extend(['</g>','</svg>'])
     (OUT/'editable_mm_v2.svg').write_text('\n'.join(lines)+'\n')
+    detail_and_comparison(d)
     metadata={k:v for k,v in d.items() if k not in ('masks','visible')}
     (OUT/'design_status.json').write_text(json.dumps(metadata,indent=2,ensure_ascii=False)+'\n')
     print(json.dumps(metadata,indent=2,ensure_ascii=False))

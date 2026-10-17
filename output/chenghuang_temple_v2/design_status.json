@@ -31,6 +31,8 @@
   },
   "text": "庙隍城",
   "text_layout_height_mm": 6.9042266494569455,
+  "plaque_font": "Ma Shan Zheng / 马善政毛笔楷书",
+  "plaque_font_license": "SIL Open Font License 1.1; unmodified font included in assets/fonts/mashanzheng",
   "magnet_strategy": "No slots in this revision: keep reference-proportioned lion plinths; use rear adhesive magnetic sheet. Reassess cavity roof thickness after design review.",
   "nominal_major_stroke_mm": 0.8721128399314036,
   "remaining_checks": [
