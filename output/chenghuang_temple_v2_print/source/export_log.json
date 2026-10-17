@@ -1,0 +1,96 @@
+[
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple_v2_print/stl/temple_v2_complete.stl",
+      "-D",
+      "part=\"assembly\"",
+      "/workspace/xia/output/chenghuang_temple_v2_print/source/temple_v2.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 1\nGeometry cache size in bytes: 10060280\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.213\n   Top level object is a 3D object:\n   Facets:     139724\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple_v2_print/stl/band_1_black.stl",
+      "-D",
+      "part=\"black\"",
+      "/workspace/xia/output/chenghuang_temple_v2_print/source/temple_v2.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 2\nGeometry cache size in bytes: 11924656\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.123\n   Top level object is a 3D object:\n   Facets:      82808\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple_v2_print/stl/band_2_blue.stl",
+      "-D",
+      "part=\"blue\"",
+      "/workspace/xia/output/chenghuang_temple_v2_print/source/temple_v2.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 2\nGeometry cache size in bytes: 13624144\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.140\n   Top level object is a 3D object:\n   Facets:      94610\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple_v2_print/stl/band_3_red.stl",
+      "-D",
+      "part=\"red\"",
+      "/workspace/xia/output/chenghuang_temple_v2_print/source/temple_v2.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 2\nGeometry cache size in bytes: 5717104\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.058\n   Top level object is a 3D object:\n   Facets:      39700\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--export-format",
+      "binstl",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple_v2_print/stl/band_4_ivory.stl",
+      "-D",
+      "part=\"ivory\"",
+      "/workspace/xia/output/chenghuang_temple_v2_print/source/temple_v2.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 2\nGeometry cache size in bytes: 1608496\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.016\n   Top level object is a 3D object:\n   Facets:      11168\n"
+  },
+  {
+    "command": [
+      "openscad",
+      "--hardwarnings",
+      "-o",
+      "/workspace/xia/output/chenghuang_temple_v2_print/3mf/temple_v2_geometry.3mf",
+      "-D",
+      "part=\"assembly\"",
+      "/workspace/xia/output/chenghuang_temple_v2_print/source/temple_v2.scad"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Geometries in cache: 1\nGeometry cache size in bytes: 10060280\nCGAL Polyhedrons in cache: 0\nCGAL cache size in bytes: 0\nTotal rendering time: 0:00:00.206\n   Top level object is a 3D object:\n   Facets:     139724\n"
+  }
+]

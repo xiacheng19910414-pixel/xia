@@ -1,0 +1,11 @@
+{
+  "stl/temple_v2_complete.stl": "a570ef1544571390f62c73aeae0e3181b27dfa11792fb1aa1a1e2402cb5667b0",
+  "stl/band_2_blue.stl": "49f0f9e5e7d1ba46dc685a2a04d57c97a0d88f9e97a56212ac560f4fd8f3abd6",
+  "stl/band_3_red.stl": "211697e3fbb62b8e7f7bafc9445253fd5098201a560d801f13c8b0eaa51e08b0",
+  "stl/band_1_black.stl": "2836b1bfc079491977f57dba1de69e7e8139b2f69fdda713d03d91720839d1d9",
+  "stl/band_4_ivory.stl": "68d50de050a2283fa70a0f29892dfebb6cdf7fdd83701a285a38c32146f587ef",
+  "3mf/temple_v2_geometry.3mf": "8ee4459077440a6b977ee3d513013d21d3fcd49108b668f0ff0083eb99b6c31b",
+  "3mf/chenghuang_temple_v2_P1S_AMS.3mf": "dd2563ded641f7640dbf5efa6b1d3aeba2e78d34e7482c984b5419e75373f20b",
+  "3mf/chenghuang_temple_v2_P1S_AMS_sliced.3mf": "68f2a761121690b471c32af337fafc1104156ce086d41b8136ad9cdcebfe3741",
+  "source/temple_v2.scad": "62bfd4fe97bfcfe794a9cf1855b6debb1459b578183d25b9d92f2584b8e503f8"
+}

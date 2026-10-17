@@ -1,0 +1,62 @@
+{
+  "width": 100.0,
+  "height": 72.314,
+  "palette": {
+    "black": "#202329",
+    "blue": "#24355C",
+    "red": "#AF302B",
+    "ivory": "#EAE0C9"
+  },
+  "reference_scale_mm_per_pixel": 0.07267606999428364,
+  "status": "OpenSCAD exports and mesh/material validation completed; see validation.json and slicing report",
+  "planned_total_thickness_mm": 4.0,
+  "planned_layer_height_mm": 0.2,
+  "planned_z_bands_mm": {
+    "black": [
+      0,
+      1.6
+    ],
+    "blue": [
+      1.6,
+      2.4
+    ],
+    "red": [
+      2.4,
+      3.2
+    ],
+    "ivory": [
+      3.2,
+      4.0
+    ]
+  },
+  "text": "庙隍城",
+  "text_layout_height_mm": 6.9042266494569455,
+  "plaque_font": "Ma Shan Zheng / 马善政毛笔楷书",
+  "plaque_font_license": "SIL Open Font License 1.1; unmodified font included in assets/fonts/mashanzheng",
+  "magnet_strategy": "No slots in this revision: keep reference-proportioned lion plinths; use rear adhesive magnetic sheet. Reassess cavity roof thickness after design review.",
+  "nominal_major_stroke_mm": 0.8721128399314036,
+  "remaining_checks": [
+    "Physical print and actual filament color match"
+  ],
+  "magnets": [],
+  "manufacturing_adjustments": {
+    "blue": {
+      "original_area_mm2": 922.3982190000002,
+      "final_area_mm2": 1043.047271
+    },
+    "red": {
+      "original_area_mm2": 1075.5812580000006,
+      "final_area_mm2": 1226.4962345000001
+    },
+    "ivory": {
+      "original_area_mm2": 1122.3163315000002,
+      "final_area_mm2": 1289.582158999999
+    }
+  },
+  "source_sha256": {
+    "src/temple_v2_design.py": "90c90e956984dfa52c3ed50fc9bafa6375cebe09fbe3ea96dafc4cdc6b2011a4",
+    "src/temple_v2_print.py": "7b6c7326a4cdfacf425e017976fd02af3092aaac66876f418107ac8201263a51",
+    "src/terrace_mesh.py": "1f01e15ebe96b90d7bb153a511253caf8c1aae02481bc97e74bbe3609ab99059",
+    "assets/fonts/mashanzheng/MaShanZheng-Regular.ttf": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
+  }
+}

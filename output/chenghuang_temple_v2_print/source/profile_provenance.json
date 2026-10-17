@@ -1,0 +1,22 @@
+{
+  "source": "Official BambuStudio v02.08.02.61 ubuntu24.04 AppImage / resources/profiles/BBL",
+  "resolved_source_files_sha256": {
+    "machine/Bambu Lab P1S 0.4 nozzle.json": "ce54a60c2b4677f6f64286e26967f133e2b54a91e2375cb5923940071ddee526",
+    "machine/fdm_bbl_3dp_001_common.json": "2ca207f457c1f9b3eb25a1801adb2eaa8ddc5620f5a8945abb51a3fcddab5e47",
+    "machine/fdm_machine_common.json": "26ef8ee697849323e67d8e1a9026c175cebe3397e38c5091dddb5cd3fc52e94c",
+    "machine/Bambu Lab P1S 0.4 nozzle template machine_start_gcode.json": "ecfedd58ee4775dec2dafe0a14c1adbcd1fe3c83d2f85e9a252cceec05d2730e",
+    "machine/Bambu Lab P1S 0.4 nozzle template machine_end_gcode.json": "766999ac6456c7ddd82aa47a3dbd9ef71d1e9333483305999b3530befe22ab7d",
+    "machine/Bambu Lab P1S 0.4 nozzle template time_lapse_gcode.json": "af84ee5b92597644c2a27ee45a0c811b748bcc8230b7c378a16d1fd405b46f44",
+    "machine/Bambu Lab P1S 0.4 nozzle template change_filament_gcode.json": "3194e4322c3b8953a187e11a0ccc198949244065fb5caf62a67443f8acc54dde",
+    "machine/Bambu Lab P1S 0.4 nozzle template layer_change_gcode.json": "f0ca694af70aec99a72501da294b8c73b8d655e8adab004325b27d2df83b98f1",
+    "process/0.20mm Standard @BBL X1C.json": "e4d3f211b6ef87e9612c96f3ac2d18413e0610fff7eeb815a76420344a3b0a19",
+    "process/fdm_process_single_0.20.json": "cdda8d56d67f62a0faa892cb6efc605ebb5c745bf742f6ead4daaeb6627c182a",
+    "process/fdm_process_single_common.json": "05b38ac1318e465e817978b36da51754f928da0172738a20bb3a8d4a69eb4769",
+    "process/fdm_process_common.json": "d7981c4b92854f251b8697e1bb621c63fe393f263fb8024ab63c401525d543d7",
+    "filament/Generic PLA.json": "d8acf4b90c1a31d89386c6553f7b01c327250d03c0735cfbfd55e65b00ab75aa",
+    "filament/Generic PLA @base.json": "530b745e2062c4c577d7acce3601ac7586fc65de394726252354bec0ade3e4c5",
+    "filament/fdm_filament_pla.json": "670d21ea6bdf1cd4b0a2bfddc743612ffd896cd6e5dbe767c25d2c4165c49a30",
+    "filament/fdm_filament_common.json": "8c7105b7d59a28f600c43a946f067b8b4d707b9711c0bf6b88e9166e48878548"
+  },
+  "overrides": "0.2mm first/all layers; 100% infill; 2 walls; 60mm/s outer walls; 40mm/s top; no supports/brim; prime tower; four Generic PLA; conservative ivory flushing"
+}

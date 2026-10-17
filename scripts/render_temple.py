@@ -15,12 +15,12 @@ sys.path.insert(0,str(ROOT))
 from src.temple_design import PALETTE
 
 
-def render(out,tilt=0.,azimuth=0.,width=1600):
+def render(out,tilt=0.,azimuth=0.,width=1600,palette=None):
     out=Path(out)
     rx=np.radians(tilt);rz=np.radians(azimuth)
     rotation=np.array([[1,0,0],[0,np.cos(rx),-np.sin(rx)],[0,np.sin(rx),np.cos(rx)]]) @ np.array([[np.cos(rz),-np.sin(rz),0],[np.sin(rz),np.cos(rz),0],[0,0,1]])
     meshes=[]
-    for i,(name,color) in enumerate(PALETTE.items()):
+    for i,(name,color) in enumerate((palette or PALETTE).items()):
         mesh=trimesh.load(out/'stl'/f'band_{i+1}_{name}.stl',force='mesh',process=False)
         triangles=mesh.triangles @ rotation.T
         meshes.append((triangles,tuple(bytes.fromhex(color[1:]))))

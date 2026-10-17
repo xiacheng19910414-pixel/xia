@@ -1,0 +1,271 @@
+{
+  "bambu_studio_version": "02.08.02.61",
+  "printer": "P1S / 0.4 mm / AMS",
+  "slicer_result": {
+    "error_string": "Success.",
+    "export_time": 973,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 409,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 149.0827178955078,
+          "Custom": 373.3979187011719,
+          "Flush": 394.2703552246094,
+          "Gap infill": 173.8426971435547,
+          "Inner wall": 196.2884063720703,
+          "Internal solid infill": 675.1155395507812,
+          "Outer wall": 640.0907592773438,
+          "Prime tower": 121.17709350585938,
+          "Sparse infill": 262.2655334472656,
+          "Top surface": 395.8373107910156,
+          "Travel": 516.9392700195312,
+          "Undefined": 501.6675109863281
+        },
+        "filament_change_times": 3,
+        "filaments": [
+          {
+            "filament_id": "GFL99",
+            "id": 1,
+            "main_used_g": 9.695487976074219,
+            "total_used_g": 10.360119819641113
+          },
+          {
+            "filament_id": "GFL99",
+            "id": 2,
+            "main_used_g": 3.2566885948181152,
+            "total_used_g": 3.9660940170288086
+          },
+          {
+            "filament_id": "GFL99",
+            "id": 3,
+            "main_used_g": 2.36421537399292,
+            "total_used_g": 3.073620557785034
+          },
+          {
+            "filament_id": "GFL99",
+            "id": 4,
+            "main_used_g": 1.2121682167053223,
+            "total_used_g": 1.9510458707809448
+          }
+        ],
+        "generate_support_material_time": 189,
+        "id": 1,
+        "infill_time": 1403,
+        "layer_filament_change": 0,
+        "main_predication": 2980.19287109375,
+        "make_perimeters_time": 702,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 72.31400299072266,
+              "height": 4.0,
+              "width": 100.0,
+              "x": 78.0,
+              "y": 91.84300231933594,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "Chenghuang Temple V2 - 100mm",
+            "triangle_count": 228286
+          }
+        ],
+        "sliced_time": 3760,
+        "sliced_time_with_cache": 1351,
+        "total_predication": 3882.735595703125,
+        "triangle_count": 228286,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 100.0,
+    "upward_compatible_machine": [
+      "Bambu Lab P1P 0.4 nozzle",
+      "Bambu Lab X1 0.4 nozzle",
+      "Bambu Lab X1 Carbon 0.4 nozzle",
+      "Bambu Lab X1E 0.4 nozzle",
+      "Bambu Lab A1 0.4 nozzle",
+      "Bambu Lab H2D 0.4 nozzle",
+      "Bambu Lab H2D Pro 0.4 nozzle",
+      "Bambu Lab H2S 0.4 nozzle",
+      "Bambu Lab P2S 0.4 nozzle",
+      "Bambu Lab H2C 0.4 nozzle",
+      "Bambu Lab X2D 0.4 nozzle",
+      "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 2
+  },
+  "geometry_after_native_bambu_export": {
+    "black": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          72.314003,
+          1.600000024
+        ]
+      ],
+      "size_mm": [
+        100.0,
+        72.314003,
+        1.600000024
+      ],
+      "volume_mm3": 7928.665522808871,
+      "triangles": 82808,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 1
+    },
+    "blue": {
+      "bounds_mm": [
+        [
+          0.5309991000000025,
+          0.0,
+          1.6000000840000002
+        ],
+        [
+          99.4690027,
+          71.5670014,
+          2.400000155
+        ]
+      ],
+      "size_mm": [
+        98.9380036,
+        71.5670014,
+        0.8000000709999997
+      ],
+      "volume_mm3": 2724.2554219681965,
+      "triangles": 94610,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 42
+    },
+    "red": {
+      "bounds_mm": [
+        [
+          2.125,
+          0.0,
+          2.399999975
+        ],
+        [
+          97.875,
+          65.4570008,
+          3.199999927
+        ]
+      ],
+      "size_mm": [
+        95.75,
+        65.4570008,
+        0.7999999519999998
+      ],
+      "volume_mm3": 2004.4304468207763,
+      "triangles": 39700,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 61
+    },
+    "ivory": {
+      "bounds_mm": [
+        [
+          3.7639999000000017,
+          0.0,
+          3.200000163
+        ],
+        [
+          96.2369995,
+          61.7490006,
+          4.000000115
+        ]
+      ],
+      "size_mm": [
+        92.4729996,
+        61.7490006,
+        0.7999999519999998
+      ],
+      "volume_mm3": 1031.6654196818433,
+      "triangles": 11168,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 34
+    }
+  },
+  "gcode_audit": {
+    "total_layers": 20,
+    "layer_heights_mm": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2.0,
+      2.2,
+      2.4,
+      2.6,
+      2.8,
+      3.0,
+      3.2,
+      3.4,
+      3.6,
+      3.8,
+      4.0
+    ],
+    "color_changes": [
+      {
+        "tool": 1,
+        "start_layer_z_mm": 1.8
+      },
+      {
+        "tool": 2,
+        "start_layer_z_mm": 2.6
+      },
+      {
+        "tool": 3,
+        "start_layer_z_mm": 3.4
+      }
+    ],
+    "commanded_nozzle_offset_mm": [
+      0.0,
+      2.0
+    ],
+    "plaque_final_layer_extrusion_coverage_fraction": 0.9868344663639631
+  },
+  "preview_note": "Cloud GLFW/Wayland GUI thumbnail unavailable; covers are CPU renders of the actual validated STL solids. Slicing/export succeeded.",
+  "cloud_thumbnail_diagnostics": [
+    "[2026-10-17 02:24:11.665850] [0x00007f49b8e81600] [error]   error_code 65544, description: Wayland: Failed to connect to display",
+    "[2026-10-17 02:24:11.665861] [0x00007f49b8e81600] [error]   glfwInit return error, code 65544"
+  ],
+  "command": [
+    "/tmp/squashfs-root/bin/bambu-studio",
+    "--datadir",
+    "/tmp/temple-v2-final-slice/settings",
+    "--debug",
+    "3",
+    "--slice",
+    "0",
+    "--skip-useless-pick",
+    "--export-3mf",
+    "temple_v2_P1S_AMS_sliced.3mf",
+    "--outputdir",
+    "/tmp/temple-v2-final-slice",
+    "/workspace/xia/output/chenghuang_temple_v2_print/3mf/chenghuang_temple_v2_P1S_AMS.3mf"
+  ],
+  "physical_print_tested": false,
+  "input_project_sha256": "dd2563ded641f7640dbf5efa6b1d3aeba2e78d34e7482c984b5419e75373f20b",
+  "native_sliced_project_sha256": "68f2a761121690b471c32af337fafc1104156ce086d41b8136ad9cdcebfe3741",
+  "final_packaged_project_reopened_in_bambu_studio": true,
+  "native_reopen_summary": "Bambu Studio --info: 100.000000 x 72.314003 x 4.000000 mm; manifold=yes; 228286 facets"
+}

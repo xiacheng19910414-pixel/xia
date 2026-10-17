@@ -1,0 +1,310 @@
+{
+  "planar_partition": {
+    "triangles": 38641,
+    "footprint_area_mm2": 4955.415775500002,
+    "overlap_area_mm2": -1.8189894035458565e-12,
+    "valid_partition": true,
+    "method": "Non-overlapping constrained XY triangulation with monotone solid Z intervals; full surface topology checked independently"
+  },
+  "bands": {
+    "black": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          72.31400299072266,
+          1.600000023841858
+        ]
+      ],
+      "size_mm": [
+        100.0,
+        72.31400299072266,
+        1.600000023841858
+      ],
+      "volume_mm3": 7928.665510270029,
+      "triangles": 82808,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 1
+    },
+    "blue": {
+      "bounds_mm": [
+        [
+          0.531000018119812,
+          0.0,
+          1.600000023841858
+        ],
+        [
+          99.46900177001953,
+          71.56700134277344,
+          2.4000000953674316
+        ]
+      ],
+      "size_mm": [
+        98.93800175189972,
+        71.56700134277344,
+        0.8000000715255737
+      ],
+      "volume_mm3": 2724.255738000984,
+      "triangles": 94610,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 42
+    },
+    "red": {
+      "bounds_mm": [
+        [
+          2.125,
+          0.0,
+          2.4000000953674316
+        ],
+        [
+          97.875,
+          65.45700073242188,
+          3.200000047683716
+        ]
+      ],
+      "size_mm": [
+        95.75,
+        65.45700073242188,
+        0.7999999523162842
+      ],
+      "volume_mm3": 2004.4304045336387,
+      "triangles": 39700,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 61
+    },
+    "ivory": {
+      "bounds_mm": [
+        [
+          3.7639999389648438,
+          0.0,
+          3.200000047683716
+        ],
+        [
+          96.23699951171875,
+          61.749000549316406,
+          4.0
+        ]
+      ],
+      "size_mm": [
+        92.4729995727539,
+        61.749000549316406,
+        0.7999999523162842
+      ],
+      "volume_mm3": 1031.6654977510993,
+      "triangles": 11168,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 34
+    }
+  },
+  "nested_support": [
+    {
+      "lower": "black",
+      "upper": "blue",
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "lower": "blue",
+      "upper": "red",
+      "unsupported_area_mm2": 0.0
+    },
+    {
+      "lower": "red",
+      "upper": "ivory",
+      "unsupported_area_mm2": 0.0
+    }
+  ],
+  "actual_stl_sections": [
+    {
+      "name": "black",
+      "z_mm": 0.8,
+      "symmetric_difference_area_mm2": 0.0017677875014135574
+    },
+    {
+      "name": "blue",
+      "z_mm": 2.0,
+      "symmetric_difference_area_mm2": 0.0025113609575129377
+    },
+    {
+      "name": "red",
+      "z_mm": 2.8,
+      "symmetric_difference_area_mm2": 0.002198850416468391
+    },
+    {
+      "name": "ivory",
+      "z_mm": 3.6,
+      "symmetric_difference_area_mm2": 0.000754538496162937
+    }
+  ],
+  "assembly": {
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        100.0,
+        72.31400299072266,
+        4.0
+      ]
+    ],
+    "size_mm": [
+      100.0,
+      72.31400299072266,
+      4.0
+    ],
+    "volume_mm3": 13689.017150555746,
+    "triangles": 139724,
+    "watertight": true,
+    "winding_consistent": true,
+    "degenerate_triangles": 0,
+    "components": 1
+  },
+  "openscad_3mf": {
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        100.0,
+        72.314,
+        4.0
+      ]
+    ],
+    "size_mm": [
+      100.0,
+      72.314,
+      4.0
+    ],
+    "volume_mm3": 13689.01683103836,
+    "triangles": 139724,
+    "watertight": true,
+    "winding_consistent": true,
+    "degenerate_triangles": 0,
+    "components": 1
+  },
+  "colored_project_3mf": {
+    "black": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          72.314003,
+          1.6
+        ]
+      ],
+      "size_mm": [
+        100.0,
+        72.314003,
+        1.6
+      ],
+      "volume_mm3": 7928.66539395594,
+      "triangles": 82808,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 1
+    },
+    "blue": {
+      "bounds_mm": [
+        [
+          0.531,
+          0.0,
+          1.6
+        ],
+        [
+          99.4690018,
+          71.5670013,
+          2.4000001
+        ]
+      ],
+      "size_mm": [
+        98.9380018,
+        71.5670013,
+        0.8000001000000001
+      ],
+      "volume_mm3": 2724.255839953605,
+      "triangles": 94610,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 42
+    },
+    "red": {
+      "bounds_mm": [
+        [
+          2.125,
+          0.0,
+          2.4000001
+        ],
+        [
+          97.875,
+          65.4570007,
+          3.2
+        ]
+      ],
+      "size_mm": [
+        95.75,
+        65.4570007,
+        0.7999999
+      ],
+      "volume_mm3": 2004.4302788612397,
+      "triangles": 39700,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 61
+    },
+    "ivory": {
+      "bounds_mm": [
+        [
+          3.7639999,
+          0.0,
+          3.2
+        ],
+        [
+          96.2369995,
+          61.7490005,
+          4.0
+        ]
+      ],
+      "size_mm": [
+        92.4729996,
+        61.7490005,
+        0.7999999999999998
+      ],
+      "volume_mm3": 1031.6655588725405,
+      "triangles": 11168,
+      "watertight": true,
+      "winding_consistent": true,
+      "degenerate_triangles": 0,
+      "components": 34
+    }
+  },
+  "expected_prism_volumes_mm3": {
+    "assembly": 13689.0168996,
+    "black": 7928.665240800001,
+    "blue": 2724.2555767999993,
+    "red": 2004.4306508000009,
+    "ivory": 1031.6654311999996
+  },
+  "physical_print_tested": false
+}

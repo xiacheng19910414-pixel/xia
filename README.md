@@ -1,4 +1,4 @@
-> 当前新版：[城隍庙 V2 外观确认稿](output/chenghuang_temple_v2/README.md)。先看正面构图和新旧对比；该版尚未生成或验证新版 STL，旧版模型保留。
+> 当前打印版：[城隍庙 V2 · 毛笔匾额 · P1S＋AMS](output/chenghuang_temple_v2_print/README.md)。提供实际导出、上色并切片验证的 3MF、完整 STL、四色高度实体及可编辑源文件。原外观确认稿和旧版保留。
 
 # 可重复使用的 FDM 3D 打印建模项目
 
